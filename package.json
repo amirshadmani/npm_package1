@@ -1,7 +1,7 @@
 {
-  "name": "package1",
+  "name": "npm_package1",
   "version": "1.0.0",
-  "description": "",
+  "description": "first npm package1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirshadmani/npm_package1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amirshadmani/npm_package1/issues"
+  },
+  "homepage": "https://github.com/amirshadmani/npm_package1#readme"
 }
